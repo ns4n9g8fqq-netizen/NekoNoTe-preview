@@ -54,9 +54,12 @@
 
 - **bilibili/ailab Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
 
-### 표기 없음
+### 모델 카드에 표기 없음 (조직은 "100% non-profit · Fully open-source" 표방, GitHub 저장소는 MIT/Apache/LGPL)
 
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
+
+### 표기 없음
+
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
 
