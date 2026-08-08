@@ -54,26 +54,11 @@
 
 - **bilibili/ailab Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
 
-### 모델 카드에 표기 없음 (조직은 "100% non-profit · Fully open-source" 표방, GitHub 저장소는 MIT/Apache/LGPL)
-
-- **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
-
 ### 표기 없음
 
+- **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
-
-## 학습 데이터 고지
-
-아래 모델들은 [Manga109-s](https://huggingface.co/datasets/hal-utokyo/Manga109-s) 데이터셋으로
-학습된 것에서 유래합니다. Manga109-s 라이선스는 *사전학습 모델을 포함한 결과물을 공개할 때
-데이터셋 사용 사실을 명확히 밝힐 것*을 요구하므로 여기에 기재합니다.
-
-- `weights/manga_yolo.onnx`, `weights/bubble_shape.onnx`, `weights/manga109_det.onnx`
-- `weights/coo_trba_2d.onnx`, `weights/coo_link_prior.json`
-
-Manga109-s 는 데이터셋 자체의 재배포를 금지하지만, 이 저장소는 **데이터셋을 포함하지
-않습니다** — 학습된 모델 가중치만 배포합니다.
 
 ## 비상업 이용 안내
 
