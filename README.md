@@ -60,10 +60,24 @@
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
 
+## 학습 데이터 고지
+
+아래 모델들은 [Manga109-s](https://huggingface.co/datasets/hal-utokyo/Manga109-s) 데이터셋으로
+학습된 것에서 유래합니다. Manga109-s 라이선스는 *사전학습 모델을 포함한 결과물을 공개할 때
+데이터셋 사용 사실을 명확히 밝힐 것*을 요구하므로 여기에 기재합니다.
+
+- `weights/manga_yolo.onnx`, `weights/bubble_shape.onnx`, `weights/manga109_det.onnx`
+- `weights/coo_trba_2d.onnx`, `weights/coo_link_prior.json`
+
+Manga109-s 는 데이터셋 자체의 재배포를 금지하지만, 이 저장소는 **데이터셋을 포함하지
+않습니다** — 학습된 모델 가중치만 배포합니다.
+
 ## 비상업 이용 안내
 
 CC BY-NC / CC BY-NC-SA 로 배포되는 모델이 포함되어 있습니다.
 이 가중치를 쓴 결과물을 **상업적으로 이용할 수 없습니다.**
+(이 제약은 위 Manga109-s 가 아니라 보정 모델들의 라이선스에서 옵니다 —
+ Manga109-s 는 학습 결과의 상업적 이용을 허용합니다.)
 
 
 ---
