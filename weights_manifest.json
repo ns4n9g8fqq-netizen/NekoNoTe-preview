@@ -279,8 +279,8 @@
       "sha256": "7b06329218302d931aa66b2805f4a0be187dbe469db0916e9d3f611c77d18d03",
       "bytes": 205643269,
       "group": "inpaint",
-      "source": "mayocream/lama-manga",
-      "license": "MIT (원 체크포인트 조건 확인 권장)",
+      "source": "mayocream/lama-manga — https://huggingface.co/mayocream/lama-manga",
+      "license": "MIT",
       "distribute": true,
       "asset": "weights__lama_large_512px.onnx"
     },
