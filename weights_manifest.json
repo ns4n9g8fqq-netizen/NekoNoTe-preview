@@ -29,8 +29,8 @@
     "font": {
       "label": "폰트 추정",
       "required": false,
-      "bytes": 145416387,
-      "count": 3
+      "bytes": 145169442,
+      "count": 2
     }
   },
   "files": [
@@ -283,16 +283,6 @@
       "license": "MIT (원 체크포인트 조건 확인 권장)",
       "distribute": true,
       "asset": "weights__lama_large_512px.onnx"
-    },
-    {
-      "path": "weights/lbpcascade_animeface.xml",
-      "sha256": "9376d30ac38db6bda2a68b88b3b76bbd7e6aa33af47f7f5c76bc88ca75f1ce30",
-      "bytes": 246945,
-      "group": "font",
-      "source": "nagadomi/lbpcascade_animeface — https://github.com/nagadomi/lbpcascade_animeface",
-      "license": "표기 없음",
-      "distribute": true,
-      "asset": "weights__lbpcascade_animeface.xml"
     },
     {
       "path": "weights/manga109_det.onnx",
