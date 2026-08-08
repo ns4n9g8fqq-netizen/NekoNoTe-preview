@@ -290,7 +290,7 @@
       "bytes": 44576915,
       "group": "detect",
       "source": "deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo",
-      "license": "모델 카드에 표기 없음 (조직은 \"100% non-profit · Fully open-source\" 표방, GitHub 저장소는 MIT/Apache/LGPL)",
+      "license": "표기 없음",
       "distribute": true,
       "asset": "weights__manga109_det.onnx"
     },
