@@ -7,12 +7,6 @@
 
 아래 모델들의 원저작자에게 감사드립니다. 각 라이선스 조건을 따릅니다.
 
-### AGPL-3.0 (Ultralytics)
-
-- **자체 학습 (Ultralytics YOLO11n-seg, Colab, 2026-07-18)** — `weights/bubble_shape.onnx`
-- **자체 학습 (Ultralytics YOLO26s-seg, Kaggle, 2026-07-16)** — `weights/manga_yolo.onnx`
-- **자체 학습 (Ultralytics, 2026-07-18)** — `weights/manga109_det.onnx`
-
 ### Apache-2.0
 
 - **Meta SAM2** — `models/sam2-onnx/config.json`, `models/sam2-onnx/image_encoder.onnx`, `models/sam2-onnx/mask_decoder.onnx`
@@ -75,6 +69,9 @@ CC BY-NC / CC BY-NC-SA 로 배포되는 모델이 포함되어 있습니다.
 없어도 나머지 기능은 정상 동작하며, 필요하면 원 배포처에서 직접 받아
 `server/` 아래 해당 경로에 두면 됩니다.
 
+- `weights/bubble_shape.onnx` — 출처 확인 중 (Ultralytics YOLO11n-seg, 2026-07-18 학습) (확인 필요)
+- `weights/manga109_det.onnx` — 출처 확인 중 (Ultralytics, Manga109 계열, 2026-07-18 학습) (확인 필요)
+- `weights/manga_yolo.onnx` — 출처 확인 중 (Ultralytics YOLO26s-seg, 2026-07-16 학습) (확인 필요)
 - `weights/restore/onnx/1x_wtp_descreenton_compact.onnx` — umzi (OpenModelDB) (없음 — 재배포 권리 없음)
 - `weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx` — Kiteretsu77/APISR (GPL-3.0 + academic use only (모순))
 - `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx` — sudo (OpenModelDB) (없음 — 재배포 권리 없음)
