@@ -60,7 +60,6 @@
 ### 표기 없음
 
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
-- **nagadomi/lbpcascade_animeface — https://github.com/nagadomi/lbpcascade_animeface** — `weights/lbpcascade_animeface.xml`
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
 
