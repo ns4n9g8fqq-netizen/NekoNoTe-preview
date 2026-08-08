@@ -219,7 +219,7 @@
       "sha256": "2523551878658b305550d8759443822dbfda9ed9c8012ef2c354ba2c5b9de503",
       "bytes": 278686411,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-base__model_quantized.onnx"
@@ -229,7 +229,7 @@
       "sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626",
       "bytes": 17082660,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-base__tokenizer.json"
@@ -239,7 +239,7 @@
       "sha256": "efb5c0d09722e5fe59a462cd2a9976ee216d55b037597d997cd3fe833216da15",
       "bytes": 418,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-base__tokenizer_config.json"
@@ -249,7 +249,7 @@
       "sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
       "bytes": 118308185,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-small__model_quantized.onnx"
@@ -259,7 +259,7 @@
       "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
       "bytes": 17082730,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-small__tokenizer.json"
@@ -269,7 +269,7 @@
       "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
       "bytes": 443,
       "group": "ocr",
-      "source": "intfloat multilingual-e5 (variant 확인 필요)",
+      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-small__tokenizer_config.json"
