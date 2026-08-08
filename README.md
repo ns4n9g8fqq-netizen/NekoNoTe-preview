@@ -24,6 +24,7 @@
 
 ### CC BY-NC 4.0
 
+- **Sirosky/Upscale-Hub — https://github.com/Sirosky/Upscale-Hub** — `weights/restore/onnx/2x_AniScale2_ESRGAN_i16_110K.onnx`
 - **the-database/IllustrationJaNai** — `weights/restore/onnx/1x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx`, `weights/restore/onnx/2x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx`, `weights/restore/onnx/2x_IllustrationJaNai_V3denoise_FDAT_M_unshuffle_30k_fp16.onnx`, `weights/restore/onnx/2x_IllustrationJaNai_V3denoise_SPAN_S_30k_fp16.onnx` 외 3개
 - **the-database/MangaJaNai** — `weights/restore/onnx/2x_MangaJaNai_1200p_V1_ESRGAN_70k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1300p_V1_ESRGAN_75k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1400p_V1_ESRGAN_70k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1500p_V1_ESRGAN_90k.onnx` 외 3개
 
@@ -38,6 +39,7 @@
 
 ### MIT
 
+- **JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection** — `weights/yuzumarker-font-detection.onnx`, `weights/yuzumarker-font-labels.json`
 - **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
 - **clovaai/CRAFT-pytorch** — `weights/craft_mlt_25k.onnx`
 - **intfloat multilingual-e5 (variant 확인 필요)** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`, `weights/e5-small/model_quantized.onnx` 외 2개
@@ -58,14 +60,9 @@
 ### 표기 없음
 
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
+- **nagadomi/lbpcascade_animeface — https://github.com/nagadomi/lbpcascade_animeface** — `weights/lbpcascade_animeface.xml`
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
-
-### 확인 필요
-
-- **JeffersonQin/YuzuMarker.FontDetection** — `weights/yuzumarker-font-detection.onnx`, `weights/yuzumarker-font-labels.json`
-- **Sirosky/Upscale-Hub** — `weights/restore/onnx/2x_AniScale2_ESRGAN_i16_110K.onnx`
-- **nagadomi/lbpcascade_animeface** — `weights/lbpcascade_animeface.xml`
 
 ## 비상업 이용 안내
 
