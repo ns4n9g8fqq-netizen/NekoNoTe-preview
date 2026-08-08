@@ -35,6 +35,10 @@
 
 - **dmMaze/comic-text-detector** — `vendor/comic-text-detector/data/comictextdetector.pt.onnx`
 
+### GPL-3.0 (프로젝트 고지: academic use only)
+
+- **Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR** — `weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx`, `weights/restore/onnx/4x_APISR_DAT_GAN_generator.onnx`
+
 ### MIT
 
 - **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
@@ -57,6 +61,8 @@
 ### 표기 없음
 
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
+- **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
+- **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
 
 ### 확인 필요
 
@@ -75,10 +81,6 @@ CC BY-NC / CC BY-NC-SA 로 배포되는 모델이 포함되어 있습니다.
 없어도 나머지 기능은 정상 동작하며, 필요하면 원 배포처에서 직접 받아
 `server/` 아래 해당 경로에 두면 됩니다.
 
-- `weights/restore/onnx/1x_wtp_descreenton_compact.onnx` — umzi (OpenModelDB) (없음 — 재배포 권리 없음)
-- `weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx` — Kiteretsu77/APISR (GPL-3.0 + academic use only (모순))
-- `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx` — sudo (OpenModelDB) (없음 — 재배포 권리 없음)
-- `weights/restore/onnx/4x_APISR_DAT_GAN_generator.onnx` — Kiteretsu77/APISR (GPL-3.0 + academic use only (모순))
 
 ---
 
