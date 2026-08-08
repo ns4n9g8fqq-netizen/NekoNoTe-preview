@@ -33,11 +33,8 @@
 
 ### GPL-3.0
 
-- **dmMaze/comic-text-detector** — `vendor/comic-text-detector/data/comictextdetector.pt.onnx`
-
-### GPL-3.0 (프로젝트 고지: academic use only)
-
 - **Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR** — `weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx`, `weights/restore/onnx/4x_APISR_DAT_GAN_generator.onnx`
+- **dmMaze/comic-text-detector** — `vendor/comic-text-detector/data/comictextdetector.pt.onnx`
 
 ### MIT
 
