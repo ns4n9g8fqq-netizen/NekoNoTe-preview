@@ -614,5 +614,37 @@
       "distribute": true,
       "asset": "weights__yuzumarker-font-labels.json"
     }
-  ]
+  ],
+  "bundles": {
+    "detect": {
+      "asset": "bundle__detect.zip",
+      "sha256": "f1c3faa07b44eeda5b718945ef39b76699d856232d919e1462ed18906a2083ac",
+      "bytes": 488562458,
+      "count": 10
+    },
+    "ocr": {
+      "asset": "bundle__ocr.zip",
+      "sha256": "a4ef3b2f638fe00852dba51da18c520a1f10f275592cd848f03887ccb0c2522c",
+      "bytes": 588542604,
+      "count": 13
+    },
+    "inpaint": {
+      "asset": "bundle__inpaint.zip",
+      "sha256": "79c3feba121e0fd0c5d12e309fd6ad6a556a9729e05324aff1d9568243983739",
+      "bytes": 190554424,
+      "count": 1
+    },
+    "restore": {
+      "asset": "bundle__restore.zip",
+      "sha256": "6858921bcb28876781c01a944892e70889bf7c3763bee827c35ce7f172ff2c6d",
+      "bytes": 532584425,
+      "count": 32
+    },
+    "font": {
+      "asset": "bundle__font.zip",
+      "sha256": "94a0ffdc37ecb947783dd47c78ac923e37b82506b9ae988393f7d5fc21001b0d",
+      "bytes": 132722495,
+      "count": 2
+    }
+  }
 }
