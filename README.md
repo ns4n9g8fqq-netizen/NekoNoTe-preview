@@ -41,6 +41,7 @@
 
 - **JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection** — `weights/yuzumarker-font-detection.onnx`, `weights/yuzumarker-font-labels.json`
 - **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
+- **bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
 - **clovaai/CRAFT-pytorch** — `weights/craft_mlt_25k.onnx`
 - **intfloat multilingual-e5 (variant 확인 필요)** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`, `weights/e5-small/model_quantized.onnx` 외 2개
 - **mayocream/lama-manga — https://huggingface.co/mayocream/lama-manga** — `weights/lama_large_512px.onnx`
@@ -49,10 +50,6 @@
 ### MIT / CC BY 4.0(주석)
 
 - **ku21fan/COO (Manga109 이미지 기반)** — `weights/coo_link_prior.json`, `weights/coo_trba_2d.onnx`
-
-### MIT(코드) / 가중치 명시 없음
-
-- **bilibili/ailab Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
 
 ### 표기 없음
 
