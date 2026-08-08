@@ -43,11 +43,8 @@
 - **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
 - **clovaai/CRAFT-pytorch** — `weights/craft_mlt_25k.onnx`
 - **intfloat multilingual-e5 (variant 확인 필요)** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`, `weights/e5-small/model_quantized.onnx` 외 2개
+- **mayocream/lama-manga — https://huggingface.co/mayocream/lama-manga** — `weights/lama_large_512px.onnx`
 - **nagadomi/nunif (waifu2x)** — `weights/restore/w2x_swin_artscan_noise0_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise1_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise2_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise3_scale2x.onnx` 외 1개
-
-### MIT (원 체크포인트 조건 확인 권장)
-
-- **mayocream/lama-manga** — `weights/lama_large_512px.onnx`
 
 ### MIT / CC BY 4.0(주석)
 
