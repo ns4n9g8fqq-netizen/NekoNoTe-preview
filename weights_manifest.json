@@ -289,8 +289,8 @@
       "sha256": "9376d30ac38db6bda2a68b88b3b76bbd7e6aa33af47f7f5c76bc88ca75f1ce30",
       "bytes": 246945,
       "group": "font",
-      "source": "nagadomi/lbpcascade_animeface",
-      "license": "확인 필요",
+      "source": "nagadomi/lbpcascade_animeface — https://github.com/nagadomi/lbpcascade_animeface",
+      "license": "표기 없음",
       "distribute": true,
       "asset": "weights__lbpcascade_animeface.xml"
     },
@@ -349,8 +349,8 @@
       "sha256": "616e74b80519423a66c1801b965c7990f8c3e0525eedd83a99937d4cff302d81",
       "bytes": 33846124,
       "group": "restore",
-      "source": "Sirosky/Upscale-Hub",
-      "license": "확인 필요",
+      "source": "Sirosky/Upscale-Hub — https://github.com/Sirosky/Upscale-Hub",
+      "license": "CC BY-NC 4.0",
       "distribute": true,
       "asset": "weights__restore__onnx__2x_AniScale2_ESRGAN_i16_110K.onnx"
     },
@@ -639,8 +639,8 @@
       "sha256": "078df313378b6e85ea3aa682a1c4f6728a9320ee32ae7d36cb35e82ea94b15c2",
       "bytes": 144454148,
       "group": "font",
-      "source": "JeffersonQin/YuzuMarker.FontDetection",
-      "license": "확인 필요",
+      "source": "JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection",
+      "license": "MIT",
       "distribute": true,
       "asset": "weights__yuzumarker-font-detection.onnx"
     },
@@ -649,8 +649,8 @@
       "sha256": "0662100cfd7654bc43a5449d868fd955060681a1648db95cbf27f5b19a4dd475",
       "bytes": 715294,
       "group": "font",
-      "source": "JeffersonQin/YuzuMarker.FontDetection",
-      "license": "확인 필요",
+      "source": "JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection",
+      "license": "MIT",
       "distribute": true,
       "asset": "weights__yuzumarker-font-labels.json"
     }
