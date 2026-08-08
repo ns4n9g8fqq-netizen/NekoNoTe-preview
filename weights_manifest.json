@@ -340,7 +340,7 @@
       "bytes": 9064850,
       "group": "restore",
       "source": "Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR",
-      "license": "GPL-3.0 (프로젝트 고지: academic use only)",
+      "license": "GPL-3.0",
       "distribute": true,
       "asset": "weights__restore__onnx__2x_APISR_RRDB_GAN_generator.onnx"
     },
@@ -560,7 +560,7 @@
       "bytes": 49234665,
       "group": "restore",
       "source": "Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR",
-      "license": "GPL-3.0 (프로젝트 고지: academic use only)",
+      "license": "GPL-3.0",
       "distribute": true,
       "asset": "weights__restore__onnx__4x_APISR_DAT_GAN_generator.onnx"
     },
