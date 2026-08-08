@@ -11,8 +11,8 @@
     "ocr": {
       "label": "글자 인식·정렬",
       "required": true,
-      "bytes": 836488254,
-      "count": 16
+      "bytes": 701096896,
+      "count": 13
     },
     "inpaint": {
       "label": "지우기 (LaMa)",
@@ -243,36 +243,6 @@
       "license": "MIT",
       "distribute": true,
       "asset": "weights__e5-base__tokenizer_config.json"
-    },
-    {
-      "path": "weights/e5-small/model_quantized.onnx",
-      "sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193",
-      "bytes": 118308185,
-      "group": "ocr",
-      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
-      "license": "MIT",
-      "distribute": true,
-      "asset": "weights__e5-small__model_quantized.onnx"
-    },
-    {
-      "path": "weights/e5-small/tokenizer.json",
-      "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
-      "bytes": 17082730,
-      "group": "ocr",
-      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
-      "license": "MIT",
-      "distribute": true,
-      "asset": "weights__e5-small__tokenizer.json"
-    },
-    {
-      "path": "weights/e5-small/tokenizer_config.json",
-      "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
-      "bytes": 443,
-      "group": "ocr",
-      "source": "intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small",
-      "license": "MIT",
-      "distribute": true,
-      "asset": "weights__e5-small__tokenizer_config.json"
     },
     {
       "path": "weights/lama_large_512px.onnx",
