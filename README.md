@@ -43,7 +43,8 @@
 - **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
 - **bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
 - **clovaai/CRAFT-pytorch** — `weights/craft_mlt_25k.onnx`
-- **intfloat multilingual-e5 (variant 확인 필요)** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`, `weights/e5-small/model_quantized.onnx` 외 2개
+- **intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`
+- **intfloat/multilingual-e5-small — https://huggingface.co/intfloat/multilingual-e5-small** — `weights/e5-small/model_quantized.onnx`, `weights/e5-small/tokenizer.json`, `weights/e5-small/tokenizer_config.json`
 - **mayocream/lama-manga — https://huggingface.co/mayocream/lama-manga** — `weights/lama_large_512px.onnx`
 - **nagadomi/nunif (waifu2x)** — `weights/restore/w2x_swin_artscan_noise0_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise1_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise2_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise3_scale2x.onnx` 외 1개
 
