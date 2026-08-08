@@ -11,6 +11,7 @@
 
 - **Meta SAM2** — `models/sam2-onnx/config.json`, `models/sam2-onnx/image_encoder.onnx`, `models/sam2-onnx/mask_decoder.onnx`
 - **baberu-ocr** — `models/baberu-ocr/config.json`, `models/baberu-ocr/generation_config.json`, `models/baberu-ocr/onnx/decoder_prefill_int8.onnx`, `models/baberu-ocr/onnx/decoder_step_int8.onnx` 외 3개
+- **huyvux3005/manga109-segmentation-bubble (HuggingFace)** — `weights/bubble_shape.onnx`
 - **ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)** — `models/rtdetr-bubble-onnx/config.json`, `models/rtdetr-bubble-onnx/model.onnx`, `models/rtdetr-bubble-onnx/preprocessor_config.json`
 
 ### BSD-3-Clause
@@ -36,6 +37,7 @@
 
 ### MIT
 
+- **ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)** — `weights/manga_yolo.onnx`
 - **clovaai/CRAFT-pytorch** — `weights/craft_mlt_25k.onnx`
 - **intfloat multilingual-e5 (variant 확인 필요)** — `weights/e5-base/model_quantized.onnx`, `weights/e5-base/tokenizer.json`, `weights/e5-base/tokenizer_config.json`, `weights/e5-small/model_quantized.onnx` 외 2개
 - **nagadomi/nunif (waifu2x)** — `weights/restore/w2x_swin_artscan_noise0_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise1_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise2_scale2x.onnx`, `weights/restore/w2x_swin_artscan_noise3_scale2x.onnx` 외 1개
@@ -51,6 +53,10 @@
 ### MIT(코드) / 가중치 명시 없음
 
 - **bilibili/ailab Real-CUGAN** — `weights/restore/onnx/2x_RealCUGAN_conservative.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx`, `weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx` 외 1개
+
+### 표기 없음
+
+- **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
 
 ### 확인 필요
 
@@ -69,9 +75,6 @@ CC BY-NC / CC BY-NC-SA 로 배포되는 모델이 포함되어 있습니다.
 없어도 나머지 기능은 정상 동작하며, 필요하면 원 배포처에서 직접 받아
 `server/` 아래 해당 경로에 두면 됩니다.
 
-- `weights/bubble_shape.onnx` — 출처 확인 중 (Ultralytics YOLO11n-seg, 2026-07-18 학습) (확인 필요)
-- `weights/manga109_det.onnx` — 출처 확인 중 (Ultralytics, Manga109 계열, 2026-07-18 학습) (확인 필요)
-- `weights/manga_yolo.onnx` — 출처 확인 중 (Ultralytics YOLO26s-seg, 2026-07-16 학습) (확인 필요)
 - `weights/restore/onnx/1x_wtp_descreenton_compact.onnx` — umzi (OpenModelDB) (없음 — 재배포 권리 없음)
 - `weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx` — Kiteretsu77/APISR (GPL-3.0 + academic use only (모순))
 - `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx` — sudo (OpenModelDB) (없음 — 재배포 권리 없음)
