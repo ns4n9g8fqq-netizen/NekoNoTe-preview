@@ -11,8 +11,8 @@
     "ocr": {
       "label": "글자 인식·정렬",
       "required": true,
-      "bytes": 701096896,
-      "count": 13
+      "bytes": 701101827,
+      "count": 14
     },
     "inpaint": {
       "label": "지우기 (LaMa)",
@@ -53,6 +53,16 @@
       "license": "Apache-2.0",
       "distribute": true,
       "asset": "models__baberu-ocr__generation_config.json"
+    },
+    {
+      "path": "models/baberu-ocr/onnx_infer.py",
+      "sha256": "0212671bdb10a480d030a1f41f8d13be99f368570d18f1a724cf0bd2de6d2ad9",
+      "bytes": 4931,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "onnx_infer.py"
     },
     {
       "path": "models/baberu-ocr/onnx/decoder_prefill_int8.onnx",
