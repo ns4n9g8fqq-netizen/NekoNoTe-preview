@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "2026-08-11.dfb0a51",
+  "version": "2026-08-11.72c0235",
   "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-weights/releases/download/install-v1",
   "asset": "server-code.zip",
-  "bytes": 606213,
-  "sha256": "884590fdd8638300327fbf18a0af3c29df6f18f800e3ab5314882e21b04d9c55"
+  "bytes": 405151,
+  "sha256": "e5d643fbda3e6baccbf677dfc26e8d939c344c3eba3385184e8571edd79c531c"
 }
