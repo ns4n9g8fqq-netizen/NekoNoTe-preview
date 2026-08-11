@@ -10,7 +10,7 @@
 ### Apache-2.0
 
 - **Meta SAM2** — `models/sam2-onnx/config.json`, `models/sam2-onnx/image_encoder.onnx`, `models/sam2-onnx/mask_decoder.onnx`
-- **baberu-ocr** — `models/baberu-ocr/config.json`, `models/baberu-ocr/generation_config.json`, `models/baberu-ocr/onnx/decoder_prefill_int8.onnx`, `models/baberu-ocr/onnx/decoder_step_int8.onnx` 외 3개
+- **baberu-ocr** — `models/baberu-ocr/config.json`, `models/baberu-ocr/generation_config.json`, `models/baberu-ocr/onnx/decoder_prefill_int8.onnx`, `models/baberu-ocr/onnx/decoder_step_int8.onnx` 외 4개
 - **huyvux3005/manga109-segmentation-bubble (HuggingFace)** — `weights/bubble_shape.onnx`
 - **ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)** — `models/rtdetr-bubble-onnx/config.json`, `models/rtdetr-bubble-onnx/model.onnx`, `models/rtdetr-bubble-onnx/preprocessor_config.json`
 
@@ -50,6 +50,10 @@
 ### MIT / CC BY 4.0(주석)
 
 - **ku21fan/COO (Manga109 이미지 기반)** — `weights/coo_link_prior.json`, `weights/coo_trba_2d.onnx`
+
+### other / Manga109 academic-use terms
+
+- **mayocream/koharu-layout-rfdetr-seg-2xl-1152 (HuggingFace)** — `models/koharu-layout-rfdetr/inference_config.json`, `models/koharu-layout-rfdetr/koharu-layout-rfdetr-seg-2xl-1152.onnx`
 
 ### 표기 없음
 
