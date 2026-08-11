@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-weights/releases/download/weights-v1",
+  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-releases/releases/download/weights-v1",
   "groups": {
     "detect": {
       "label": "검출 (말풍선·칸·글자)",
