@@ -5,8 +5,8 @@
     "detect": {
       "label": "검출 (말풍선·칸·글자)",
       "required": true,
-      "bytes": 657629026,
-      "count": 10
+      "bytes": 872511316,
+      "count": 11
     },
     "ocr": {
       "label": "글자 인식·정렬",
@@ -55,16 +55,6 @@
       "asset": "models__baberu-ocr__generation_config.json"
     },
     {
-      "path": "models/baberu-ocr/onnx_infer.py",
-      "sha256": "0212671bdb10a480d030a1f41f8d13be99f368570d18f1a724cf0bd2de6d2ad9",
-      "bytes": 4931,
-      "group": "ocr",
-      "source": "baberu-ocr",
-      "license": "Apache-2.0",
-      "distribute": true,
-      "asset": "onnx_infer.py"
-    },
-    {
       "path": "models/baberu-ocr/onnx/decoder_prefill_int8.onnx",
       "sha256": "4f8d28d4e5e8b6c7f3a4510663aa0a9199a7eec06bcb1dc0afb3ca571494e97f",
       "bytes": 35133596,
@@ -93,6 +83,16 @@
       "license": "Apache-2.0",
       "distribute": true,
       "asset": "models__baberu-ocr__onnx__vision_int4.onnx"
+    },
+    {
+      "path": "models/baberu-ocr/onnx_infer.py",
+      "sha256": "0212671bdb10a480d030a1f41f8d13be99f368570d18f1a724cf0bd2de6d2ad9",
+      "bytes": 4931,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__onnx_infer.py"
     },
     {
       "path": "models/baberu-ocr/tokenizer/tokenizer_config.json",
@@ -263,6 +263,16 @@
       "license": "MIT",
       "distribute": true,
       "asset": "weights__lama_large_512px.onnx"
+    },
+    {
+      "path": "weights/manga-text-segmentation-2025/model.onnx",
+      "sha256": "11c2953535f38675209ebd066bdb25fa06013f88384a8e2fb2d795f3a7e21a2c",
+      "bytes": 214882290,
+      "group": "detect",
+      "source": "a-b-c-x-y-z/Manga-Text-Segmentation-2025 — https://huggingface.co/a-b-c-x-y-z/Manga-Text-Segmentation-2025",
+      "license": "표기 없음",
+      "distribute": true,
+      "asset": "weights__manga-text-segmentation-2025__model.onnx"
     },
     {
       "path": "weights/manga109_det.onnx",
@@ -628,15 +638,15 @@
   "bundles": {
     "detect": {
       "asset": "bundle__detect.zip",
-      "sha256": "f1c3faa07b44eeda5b718945ef39b76699d856232d919e1462ed18906a2083ac",
-      "bytes": 488562458,
-      "count": 10
+      "sha256": "452182d09b2ac743f7411bc8fd83aae24c66c896467fbf08292812ec3f55b29f",
+      "bytes": 688838952,
+      "count": 11
     },
     "ocr": {
       "asset": "bundle__ocr.zip",
-      "sha256": "a4ef3b2f638fe00852dba51da18c520a1f10f275592cd848f03887ccb0c2522c",
-      "bytes": 588542604,
-      "count": 13
+      "sha256": "947167f95a0692dabfe884731f7ccf8a0b055db05ce5fb57bdc3b648811a898b",
+      "bytes": 588544790,
+      "count": 14
     },
     "inpaint": {
       "asset": "bundle__inpaint.zip",
