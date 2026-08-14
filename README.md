@@ -10,7 +10,7 @@
 ### Apache-2.0
 
 - **Meta SAM2** — `models/sam2-onnx/config.json`, `models/sam2-onnx/image_encoder.onnx`, `models/sam2-onnx/mask_decoder.onnx`
-- **baberu-ocr** — `models/baberu-ocr/config.json`, `models/baberu-ocr/generation_config.json`, `models/baberu-ocr/onnx/decoder_prefill_int8.onnx`, `models/baberu-ocr/onnx/decoder_step_int8.onnx` 외 3개
+- **baberu-ocr** — `models/baberu-ocr/config.json`, `models/baberu-ocr/generation_config.json`, `models/baberu-ocr/onnx/decoder_prefill_int8.onnx`, `models/baberu-ocr/onnx/decoder_step_int8.onnx` 외 4개
 - **huyvux3005/manga109-segmentation-bubble (HuggingFace)** — `weights/bubble_shape.onnx`
 - **ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)** — `models/rtdetr-bubble-onnx/config.json`, `models/rtdetr-bubble-onnx/model.onnx`, `models/rtdetr-bubble-onnx/preprocessor_config.json`
 
@@ -53,6 +53,7 @@
 
 ### 표기 없음
 
+- **a-b-c-x-y-z/Manga-Text-Segmentation-2025 — https://huggingface.co/a-b-c-x-y-z/Manga-Text-Segmentation-2025** — `weights/manga-text-segmentation-2025/model.onnx`
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
