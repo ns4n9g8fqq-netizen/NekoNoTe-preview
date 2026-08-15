@@ -53,7 +53,6 @@
 
 ### 표기 없음
 
-- **a-b-c-x-y-z/Manga-Text-Segmentation-2025 — https://huggingface.co/a-b-c-x-y-z/Manga-Text-Segmentation-2025** — `weights/manga-text-segmentation-2025/model.onnx`
 - **deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo** — `weights/manga109_det.onnx`
 - **sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969** — `weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx`
 - **umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact** — `weights/restore/onnx/1x_wtp_descreenton_compact.onnx`
