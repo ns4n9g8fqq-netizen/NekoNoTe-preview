@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "2026-08-22.ac060af",
+  "version": "2026-08-22.bfde8eb",
   "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-releases/releases/download/install-v1",
   "asset": "server-code.zip",
-  "bytes": 429166,
-  "sha256": "f84957865312f68fa3b0a81fb7b71ba8260571a3e4db9df14cd033b3a59fdb41"
+  "bytes": 428312,
+  "sha256": "518d2baa9ee1ef7eaea348578b8a393916b2bf5aae5630ae9d3b8e88f5e62d24"
 }
