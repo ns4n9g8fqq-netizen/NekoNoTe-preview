@@ -1,0 +1,661 @@
+{
+  "schema": 1,
+  "plugin_version": "0.3.1",
+  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-preview/releases/download/weights-v1",
+  "groups": {
+    "detect": {
+      "label": "검출 (말풍선·칸·글자)",
+      "required": true,
+      "bytes": 657629026,
+      "count": 10
+    },
+    "ocr": {
+      "label": "글자 인식·정렬",
+      "required": true,
+      "bytes": 701101827,
+      "count": 14
+    },
+    "inpaint": {
+      "label": "지우기 (LaMa)",
+      "required": true,
+      "bytes": 205643269,
+      "count": 1
+    },
+    "restore": {
+      "label": "스캔 보정",
+      "required": false,
+      "bytes": 605505348,
+      "count": 32
+    },
+    "font": {
+      "label": "폰트 추정",
+      "required": false,
+      "bytes": 145169442,
+      "count": 2
+    }
+  },
+  "files": [
+    {
+      "path": "models/baberu-ocr/config.json",
+      "sha256": "01506b6e49a5421b0b996fbcdd5d2fe8f1850269167ce7b1f82a3859488c2b22",
+      "bytes": 973,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__config.json"
+    },
+    {
+      "path": "models/baberu-ocr/generation_config.json",
+      "sha256": "7034ddf56bf65c34efad0783d1310b05437618b8da04a947c9f59e0e6063eca7",
+      "bytes": 269,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__generation_config.json"
+    },
+    {
+      "path": "models/baberu-ocr/onnx/decoder_prefill_int8.onnx",
+      "sha256": "4f8d28d4e5e8b6c7f3a4510663aa0a9199a7eec06bcb1dc0afb3ca571494e97f",
+      "bytes": 35133596,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__onnx__decoder_prefill_int8.onnx"
+    },
+    {
+      "path": "models/baberu-ocr/onnx/decoder_step_int8.onnx",
+      "sha256": "2eaf792ca70b67e55140ef0bcfbfc3c3b1e07d72ca277dcc46aae27c81f27ac8",
+      "bytes": 33929034,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__onnx__decoder_step_int8.onnx"
+    },
+    {
+      "path": "models/baberu-ocr/onnx/vision_int4.onnx",
+      "sha256": "9526bcf99eb8de805df7ea2f66b385cfcbcb5dff0e99a5dcfb02bdb2d4182bde",
+      "bytes": 52293486,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__onnx__vision_int4.onnx"
+    },
+    {
+      "path": "models/baberu-ocr/onnx_infer.py",
+      "sha256": "0212671bdb10a480d030a1f41f8d13be99f368570d18f1a724cf0bd2de6d2ad9",
+      "bytes": 4931,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__onnx_infer.py"
+    },
+    {
+      "path": "models/baberu-ocr/tokenizer/tokenizer_config.json",
+      "sha256": "c6c8004b1d310bd7c56455387c25cdf4da28594bbd5713aaa3fddfd5eac8f483",
+      "bytes": 937,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__tokenizer__tokenizer_config.json"
+    },
+    {
+      "path": "models/baberu-ocr/tokenizer/vocab.json",
+      "sha256": "681de4eb83154a397af49e2ddae4705041b12a22e16fe00860b829e889e5f47c",
+      "bytes": 130761,
+      "group": "ocr",
+      "source": "baberu-ocr",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__baberu-ocr__tokenizer__vocab.json"
+    },
+    {
+      "path": "models/rtdetr-bubble-onnx/config.json",
+      "sha256": "db744da21d31a0daa8b85878f2fe86d7c72679ed2e0c5dae698735472388e19d",
+      "bytes": 2787,
+      "group": "detect",
+      "source": "ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__rtdetr-bubble-onnx__config.json"
+    },
+    {
+      "path": "models/rtdetr-bubble-onnx/model.onnx",
+      "sha256": "b674e9867108d3d8fa374b72880b71492dd05f7a27d8b8f4ce1cabb93947c942",
+      "bytes": 171784405,
+      "group": "detect",
+      "source": "ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__rtdetr-bubble-onnx__model.onnx"
+    },
+    {
+      "path": "models/rtdetr-bubble-onnx/preprocessor_config.json",
+      "sha256": "89826360a8e5cb1944467db812e306be05e0d30d2b09432d10858c115700bedb",
+      "bytes": 760,
+      "group": "detect",
+      "source": "ogkalu/comic-text-and-bubble-detector (RT-DETR-v2 r50vd)",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__rtdetr-bubble-onnx__preprocessor_config.json"
+    },
+    {
+      "path": "models/sam2-onnx/config.json",
+      "sha256": "839d821d193788679b469763bce35bde86404b91364856d32358fe7e8df9bc33",
+      "bytes": 259,
+      "group": "detect",
+      "source": "Meta SAM2",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__sam2-onnx__config.json"
+    },
+    {
+      "path": "models/sam2-onnx/image_encoder.onnx",
+      "sha256": "d207fe13c48ed8c53e4b56059e574cf571d6a6583d0cef5e4ea5591f85866e8d",
+      "bytes": 277384523,
+      "group": "detect",
+      "source": "Meta SAM2",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__sam2-onnx__image_encoder.onnx"
+    },
+    {
+      "path": "models/sam2-onnx/mask_decoder.onnx",
+      "sha256": "f34c61359253a2c3c2c4a99432fe3975e875f9a289c7f2c5c4929443cb2dada0",
+      "bytes": 16496827,
+      "group": "detect",
+      "source": "Meta SAM2",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "models__sam2-onnx__mask_decoder.onnx"
+    },
+    {
+      "path": "vendor/comic-text-detector/data/comictextdetector.pt.onnx",
+      "sha256": "87ac7ebb91522a3f448e6dae2c17e0f2d4046228d47426d5a41bd9797fadcbba",
+      "bytes": 93695593,
+      "group": "detect",
+      "source": "dmMaze/comic-text-detector",
+      "license": "GPL-3.0",
+      "distribute": true,
+      "asset": "vendor__comic-text-detector__data__comictextdetector.pt.onnx"
+    },
+    {
+      "path": "weights/bubble_shape.onnx",
+      "sha256": "56b14abfce54fad6f4293b13f9dd9b1ef9da9a0f2326dc175888919c1851b3ca",
+      "bytes": 11442335,
+      "group": "detect",
+      "source": "huyvux3005/manga109-segmentation-bubble (HuggingFace)",
+      "license": "Apache-2.0",
+      "distribute": true,
+      "asset": "weights__bubble_shape.onnx"
+    },
+    {
+      "path": "weights/coo_link_prior.json",
+      "sha256": "6963c6ad8497839fc304f1e76d6075a8651440313c00917237fb53677a2be822",
+      "bytes": 1596,
+      "group": "ocr",
+      "source": "ku21fan/COO (Manga109 이미지 기반)",
+      "license": "MIT / CC BY 4.0(주석)",
+      "distribute": true,
+      "asset": "weights__coo_link_prior.json"
+    },
+    {
+      "path": "weights/coo_trba_2d.onnx",
+      "sha256": "2f77bc313223c0a4e296478f348c26281397b895786d3df7dd2a245e05d61a23",
+      "bytes": 200776018,
+      "group": "ocr",
+      "source": "ku21fan/COO (Manga109 이미지 기반)",
+      "license": "MIT / CC BY 4.0(주석)",
+      "distribute": true,
+      "asset": "weights__coo_trba_2d.onnx"
+    },
+    {
+      "path": "weights/craft_mlt_25k.onnx",
+      "sha256": "e93acb3a6fce85d17f55b43d069e39445bca068939eb318727a8aff393d2090d",
+      "bytes": 83060737,
+      "group": "ocr",
+      "source": "clovaai/CRAFT-pytorch",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__craft_mlt_25k.onnx"
+    },
+    {
+      "path": "weights/e5-base/model_quantized.onnx",
+      "sha256": "2523551878658b305550d8759443822dbfda9ed9c8012ef2c354ba2c5b9de503",
+      "bytes": 278686411,
+      "group": "ocr",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__e5-base__model_quantized.onnx"
+    },
+    {
+      "path": "weights/e5-base/tokenizer.json",
+      "sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626",
+      "bytes": 17082660,
+      "group": "ocr",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__e5-base__tokenizer.json"
+    },
+    {
+      "path": "weights/e5-base/tokenizer_config.json",
+      "sha256": "efb5c0d09722e5fe59a462cd2a9976ee216d55b037597d997cd3fe833216da15",
+      "bytes": 418,
+      "group": "ocr",
+      "source": "intfloat/multilingual-e5-base — https://huggingface.co/intfloat/multilingual-e5-base",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__e5-base__tokenizer_config.json"
+    },
+    {
+      "path": "weights/lama_large_512px.onnx",
+      "sha256": "7b06329218302d931aa66b2805f4a0be187dbe469db0916e9d3f611c77d18d03",
+      "bytes": 205643269,
+      "group": "inpaint",
+      "source": "mayocream/lama-manga — https://huggingface.co/mayocream/lama-manga",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__lama_large_512px.onnx"
+    },
+    {
+      "path": "weights/manga109_det.onnx",
+      "sha256": "faaba2f5ec416f1e416b6603567028c29f3fdc17350a799ab4a1d90ad489a00f",
+      "bytes": 44576915,
+      "group": "detect",
+      "source": "deepghs/manga109_yolo (HuggingFace) — https://huggingface.co/deepghs/manga109_yolo",
+      "license": "표기 없음",
+      "distribute": true,
+      "asset": "weights__manga109_det.onnx"
+    },
+    {
+      "path": "weights/manga_yolo.onnx",
+      "sha256": "dd6b8e4f6905d8468c3fb8898cc2c9dd242b69fd3463b74cf1401b5114df4c3e",
+      "bytes": 42244622,
+      "group": "detect",
+      "source": "ShadowB/Manga109-panel-balloon-text-yolov26-segmentation (HuggingFace)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__manga_yolo.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/1x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx",
+      "sha256": "06e961960763c74cccec3f007533396658bde8a365dd0f60f51f2f37a3310736",
+      "bytes": 8162819,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__1x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/1x_wtp_descreenton_compact.onnx",
+      "sha256": "0e68d2f64bb13bc0871843a28b4933b4490eeba4a009e6f9245880d69b596465",
+      "bytes": 1200638,
+      "group": "restore",
+      "source": "umzi (OpenModelDB) — https://openmodeldb.info/models/1x-wtp-descreentone-compact",
+      "license": "표기 없음",
+      "distribute": true,
+      "asset": "weights__restore__onnx__1x_wtp_descreenton_compact.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_APISR_RRDB_GAN_generator.onnx",
+      "sha256": "0b455414abdc788ff06b5dbbd1fd6d95ba189614af6e8f4c52629d517fe8eac7",
+      "bytes": 9064850,
+      "group": "restore",
+      "source": "Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR",
+      "license": "GPL-3.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_APISR_RRDB_GAN_generator.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_AniScale2_ESRGAN_i16_110K.onnx",
+      "sha256": "616e74b80519423a66c1801b965c7990f8c3e0525eedd83a99937d4cff302d81",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "Sirosky/Upscale-Hub — https://github.com/Sirosky/Upscale-Hub",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_AniScale2_ESRGAN_i16_110K.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx",
+      "sha256": "16e67fc98a2ad40a0ed8a7a0157b47ae0d76fc9a59771c6937593d484319623e",
+      "bytes": 8168446,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_IllustrationJaNai_V3denoise_FDAT_M_unshuffle_30k_fp16.onnx",
+      "sha256": "e25f3846786549d79f625bebbd1722b7199b4e3907251d87a99a69d36160275c",
+      "bytes": 9157755,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_IllustrationJaNai_V3denoise_FDAT_M_unshuffle_30k_fp16.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_IllustrationJaNai_V3denoise_SPAN_S_30k_fp16.onnx",
+      "sha256": "0618a6a90ef116331cf6079e51f70ec22d64143203e1f7aff9a302e623dca505",
+      "bytes": 839625,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_IllustrationJaNai_V3denoise_SPAN_S_30k_fp16.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_IllustrationJaNai_V3detail_FDAT_M_unshuffle_40k_fp16.onnx",
+      "sha256": "ac3c7b53408e795f9f5056b936d5a785cddd56a720367e8e76f2cf79a48d6146",
+      "bytes": 9157755,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_IllustrationJaNai_V3detail_FDAT_M_unshuffle_40k_fp16.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_IllustrationJaNai_V3detail_SPAN_S_40k_fp16.onnx",
+      "sha256": "c83bda4e9d2b3135e5d198fa87d6dbc94891b4ee09e3449135567f505504e4ff",
+      "bytes": 839625,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_IllustrationJaNai_V3detail_SPAN_S_40k_fp16.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1200p_V1_ESRGAN_70k.onnx",
+      "sha256": "522ff45c814f4c23662d3d74af0238027d321767a8c8974f66eee0e8c8de5461",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1200p_V1_ESRGAN_70k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1300p_V1_ESRGAN_75k.onnx",
+      "sha256": "034d9ce087a339311e0fe65b5c643bff30c39f063583f48c041fa3c694bf7b3b",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1300p_V1_ESRGAN_75k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1400p_V1_ESRGAN_70k.onnx",
+      "sha256": "7beb72e7562880266e816dc33dba35bb463d1fdaa88f0bed36a3eb50827d4ee8",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1400p_V1_ESRGAN_70k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1500p_V1_ESRGAN_90k.onnx",
+      "sha256": "266de0851202eabf671e17e98413a00d4a73a697baf9d45d45aff02e910027ab",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1500p_V1_ESRGAN_90k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1600p_V1_ESRGAN_90k.onnx",
+      "sha256": "7868e0e43c2738f721ef41c70dc38adf455fb49bf062cabf30fa7aebe93da489",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1600p_V1_ESRGAN_90k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_1920p_V1_ESRGAN_70k.onnx",
+      "sha256": "066a26ce8cae7335741cf922e4f8f07796a2ecd3f87ddfd6f115306b52a575a7",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_1920p_V1_ESRGAN_70k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_MangaJaNai_2048p_V1_ESRGAN_95k.onnx",
+      "sha256": "7d029dab5332b886c8e892b83c28500a176c8a85b24d26f2c31cb382809d2df5",
+      "bytes": 33846124,
+      "group": "restore",
+      "source": "the-database/MangaJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_MangaJaNai_2048p_V1_ESRGAN_95k.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_RealCUGAN_conservative.onnx",
+      "sha256": "f037e610c461e754f5155d2387b24c448a2d2002e411cd0cb40bdab07875b5b8",
+      "bytes": 5161636,
+      "group": "restore",
+      "source": "bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_RealCUGAN_conservative.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_RealCUGAN_denoise1x.onnx",
+      "sha256": "18d831b4f81c4b1b745aee42f0d7e68d04b2db544117567455442768ae75a5d8",
+      "bytes": 5161636,
+      "group": "restore",
+      "source": "bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_RealCUGAN_denoise1x.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_RealCUGAN_denoise2x.onnx",
+      "sha256": "72203fa51173e0d2ab95e8a025afa8be905f1682b7367687ad16fb8f92d9b5fc",
+      "bytes": 5161636,
+      "group": "restore",
+      "source": "bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_RealCUGAN_denoise2x.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_RealCUGAN_denoise3x.onnx",
+      "sha256": "1c09345f5739dfa886bc93a74c30a58250f89ca3c822ea52c2cf0ba7f8185d67",
+      "bytes": 5161636,
+      "group": "restore",
+      "source": "bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_RealCUGAN_denoise3x.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_RealCUGAN_no-denoise.onnx",
+      "sha256": "d61a8266e6bbbe51851bb119c61f895533dd561ecddf0ceec8db3ae28305d6b1",
+      "bytes": 5161636,
+      "group": "restore",
+      "source": "bilibili/ailab Real-CUGAN — https://github.com/bilibili/ailab/tree/main/Real-CUGAN",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_RealCUGAN_no-denoise.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/2x_sudo_shuffle_cugan_9.584.969.onnx",
+      "sha256": "e32829aef0752544dc98e191cd1d90e984663e9d31192ad27f95650a8fecdfd5",
+      "bytes": 5663111,
+      "group": "restore",
+      "source": "sudo (OpenModelDB) — https://openmodeldb.info/models/2x-sudo-shuffle-cugan-9-584-969",
+      "license": "표기 없음",
+      "distribute": true,
+      "asset": "weights__restore__onnx__2x_sudo_shuffle_cugan_9.584.969.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/4x-DWTP-DS-dat2-v3.onnx",
+      "sha256": "e56c23401dabdf171ff84f075bfa5e82a77692abd0b0cc654d556b9717934b8b",
+      "bytes": 51322524,
+      "group": "restore",
+      "source": "OpenModelDB",
+      "license": "CC BY 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__4x-DWTP-DS-dat2-v3.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/4x-eula-digimanga-bw-v2-nc1.onnx",
+      "sha256": "e9d69f0ea0fec26d042236502cec461c6fc4add3770a2d6c8360a5c42920f404",
+      "bytes": 33829201,
+      "group": "restore",
+      "source": "eula#9756 (OpenModelDB)",
+      "license": "CC BY-NC-SA 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__4x-eula-digimanga-bw-v2-nc1.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/4x_APISR_DAT_GAN_generator.onnx",
+      "sha256": "40a226efb0cf9852c5244d5da4fa241109f1c70a2a32a49b119ea490c689ba0f",
+      "bytes": 49234665,
+      "group": "restore",
+      "source": "Kiteretsu77/APISR — https://github.com/Kiteretsu77/APISR",
+      "license": "GPL-3.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__4x_APISR_DAT_GAN_generator.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/4x_IllustrationJaNai_V3denoise_DAT2_27k_bf16.onnx",
+      "sha256": "1316d41ac719a25e4adcf93d97f2c75db29961b3cde21be57f037a0d2eb62ee9",
+      "bytes": 51322524,
+      "group": "restore",
+      "source": "the-database/IllustrationJaNai",
+      "license": "CC BY-NC 4.0",
+      "distribute": true,
+      "asset": "weights__restore__onnx__4x_IllustrationJaNai_V3denoise_DAT2_27k_bf16.onnx"
+    },
+    {
+      "path": "weights/restore/onnx/4x_RealESRGAN_anime_6B.onnx",
+      "sha256": "c20d893c5dbdd010eaa33c5086eb96502cfd61eaa3d3fe782e23e02930a3f4a5",
+      "bytes": 9052539,
+      "group": "restore",
+      "source": "xinntao/Real-ESRGAN",
+      "license": "BSD-3-Clause",
+      "distribute": true,
+      "asset": "weights__restore__onnx__4x_RealESRGAN_anime_6B.onnx"
+    },
+    {
+      "path": "weights/restore/w2x_swin_artscan_noise0_scale2x.onnx",
+      "sha256": "a291d3017d5fc1a92381f4d7f43ebd570590a2a2e03808aeb9b1e05f23fd858d",
+      "bytes": 10751541,
+      "group": "restore",
+      "source": "nagadomi/nunif (waifu2x)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__w2x_swin_artscan_noise0_scale2x.onnx"
+    },
+    {
+      "path": "weights/restore/w2x_swin_artscan_noise1_scale2x.onnx",
+      "sha256": "d3155b658261deb1e641457ac2366f1b96ae0eb4c2ad80507fb1351a5459d08f",
+      "bytes": 10751541,
+      "group": "restore",
+      "source": "nagadomi/nunif (waifu2x)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__w2x_swin_artscan_noise1_scale2x.onnx"
+    },
+    {
+      "path": "weights/restore/w2x_swin_artscan_noise2_scale2x.onnx",
+      "sha256": "16bc23b871c459a506e1335a4595a841f7a4bd562a26fbab85d3371491035fa2",
+      "bytes": 18905935,
+      "group": "restore",
+      "source": "nagadomi/nunif (waifu2x)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__w2x_swin_artscan_noise2_scale2x.onnx"
+    },
+    {
+      "path": "weights/restore/w2x_swin_artscan_noise3_scale2x.onnx",
+      "sha256": "6ba8498fc103217af7314aead82899d256e25a347bac770f7bc50827ab000c67",
+      "bytes": 10751541,
+      "group": "restore",
+      "source": "nagadomi/nunif (waifu2x)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__w2x_swin_artscan_noise3_scale2x.onnx"
+    },
+    {
+      "path": "weights/restore/w2x_swin_artscan_nonoise_scale2x.onnx",
+      "sha256": "3770b5e9177ebb56af75583d38b9f7fe43749d7f3d2850b4293f0e44b2d21f5c",
+      "bytes": 10751541,
+      "group": "restore",
+      "source": "nagadomi/nunif (waifu2x)",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__restore__w2x_swin_artscan_nonoise_scale2x.onnx"
+    },
+    {
+      "path": "weights/yuzumarker-font-detection.onnx",
+      "sha256": "078df313378b6e85ea3aa682a1c4f6728a9320ee32ae7d36cb35e82ea94b15c2",
+      "bytes": 144454148,
+      "group": "font",
+      "source": "JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__yuzumarker-font-detection.onnx"
+    },
+    {
+      "path": "weights/yuzumarker-font-labels.json",
+      "sha256": "0662100cfd7654bc43a5449d868fd955060681a1648db95cbf27f5b19a4dd475",
+      "bytes": 715294,
+      "group": "font",
+      "source": "JeffersonQin/YuzuMarker.FontDetection — https://github.com/JeffersonQin/YuzuMarker.FontDetection",
+      "license": "MIT",
+      "distribute": true,
+      "asset": "weights__yuzumarker-font-labels.json"
+    }
+  ],
+  "bundles": {
+    "detect": {
+      "asset": "bundle__detect-0.2.1.zip",
+      "sha256": "f1c3faa07b44eeda5b718945ef39b76699d856232d919e1462ed18906a2083ac",
+      "bytes": 488562458,
+      "count": 10
+    },
+    "ocr": {
+      "asset": "bundle__ocr-0.2.1.zip",
+      "sha256": "947167f95a0692dabfe884731f7ccf8a0b055db05ce5fb57bdc3b648811a898b",
+      "bytes": 588544790,
+      "count": 14
+    },
+    "inpaint": {
+      "asset": "bundle__inpaint.zip",
+      "sha256": "79c3feba121e0fd0c5d12e309fd6ad6a556a9729e05324aff1d9568243983739",
+      "bytes": 190554424,
+      "count": 1
+    },
+    "restore": {
+      "asset": "bundle__restore.zip",
+      "sha256": "6858921bcb28876781c01a944892e70889bf7c3763bee827c35ce7f172ff2c6d",
+      "bytes": 532584425,
+      "count": 32
+    },
+    "font": {
+      "asset": "bundle__font.zip",
+      "sha256": "94a0ffdc37ecb947783dd47c78ac923e37b82506b9ae988393f7d5fc21001b0d",
+      "bytes": 132722495,
+      "count": 2
+    }
+  }
+}
