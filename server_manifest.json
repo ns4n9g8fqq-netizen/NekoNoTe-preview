@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "version": "2026-08-30.38d7575",
-  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-releases/releases/download/install-v1",
-  "asset": "server-code.zip",
-  "bytes": 421890,
-  "sha256": "543695142b353ce67e90010e0266b8de6da49c9de51bbfb337eb30287429727f"
+  "version": "compat-bridge-v1",
+  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-preview/releases/download/server-compat-bridge-v1",
+  "asset": "server-compat-bridge-v1.zip",
+  "bytes": 10116,
+  "sha256": "6f3f430966cca474f53b5781bd021747961763452deae43ee4066a365a6824b8"
 }
