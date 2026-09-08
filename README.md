@@ -26,7 +26,7 @@
 
 - **Sirosky/Upscale-Hub — https://github.com/Sirosky/Upscale-Hub** — `weights/restore/onnx/2x_AniScale2_ESRGAN_i16_110K.onnx`
 - **the-database/IllustrationJaNai** — `weights/restore/onnx/1x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx`, `weights/restore/onnx/2x_IllustrationJaNai-DeJPEG_FDAT_M_100k.onnx`, `weights/restore/onnx/2x_IllustrationJaNai_V3denoise_FDAT_M_unshuffle_30k_fp16.onnx`, `weights/restore/onnx/2x_IllustrationJaNai_V3denoise_SPAN_S_30k_fp16.onnx` 외 3개
-- **the-database/MangaJaNai** — `weights/restore/onnx/2x_MangaJaNai_1200p_V1_ESRGAN_70k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1300p_V1_ESRGAN_75k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1400p_V1_ESRGAN_70k.onnx`, `weights/restore/onnx/2x_MangaJaNai_1500p_V1_ESRGAN_90k.onnx` 외 3개
+- **[the-database/MangaJaNai](https://github.com/the-database/MangaJaNai)** — 2x/4x MangaJaNai (각 7개, 1200p·1300p·1400p·1500p·1600p·1920p·2048p). 배포 경로: `weights/restore/onnx/`. 원본 `.pth` 가중치를 ONNX로 변환했어요. [원본 라이선스: CC BY-NC 4.0](https://github.com/the-database/MangaJaNai/blob/main/LICENSE).
 
 ### CC BY-NC-SA 4.0
 
