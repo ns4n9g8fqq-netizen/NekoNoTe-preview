@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "version": "0.3.4",
-  "url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-releases/releases/download/plugin-v0.3.4/NekoNoTe.plugin_PS.ccx",
+  "version": "0.3.5",
+  "url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-releases/releases/download/plugin-v0.3.5/NekoNoTe.plugin_PS.ccx",
   "asset": "NekoNoTe.plugin_PS.ccx",
-  "bytes": 1242373,
-  "sha256": "3324d2a652eb14f61594a0f17ed948d79a067bf5455dde6bb42a46bd4d7ccb2d",
+  "bytes": 11865037,
+  "sha256": "55c4a5847ef911641594f9dc01040bde9e5d60c052660b0d45f00df03cd825b3",
   "signature": {
     "algorithm": "RSA-SHA256",
     "key_id": "nn-release-7324d46eebc0",
-    "value": "IwBuLiu9sQg1AQuYfrCxuta2Iq9n/TUIuR/iDn3Ol4gnK+9AiYBs/bskWve1yYyXgj2FpI1E4IIqNkf0hukYXcuOW1g4/NXHgWMcwiwGx4YBIIUOgLTU6Bgdn9aodCFY7q4tb9MqDBUIS3J/TgGxafMvPPI2CUrviioyBcUUX9TnAWK0F+yUJ8AXKWqXwMRlWufU3vHwU6pbiOb3llozFSEcbwNF3n2mZeJH3kcs8pnnnc2gRwxDETagFAuHEjswDuIB1ZRsa4WZKn9mlF+FoOR1dstBxPcdloZkeowmK5roNt98DHfpHd7YQVA4hxAcvnUzamttdLAb6V8Gc8yvWLJyNa3lykJNRNB4K8QaBajwl5a7MDKr+5l3M6xhPRuaJ7iwv9gz5oynz3IxUJS222anVjLPbQuUmKxLrIKqG1dnf8UYjnCw/JG9gwjzog5rmddCZznXs0BVK/DYgvPOdXguMFj4/DNTHM1lKJp0NtKFcY/BLqvS45+rRzTpurW5"
+    "value": "Lj74Y3zxVWougD5LzuGX9267RG9JyUV8oNHuzrFNy/+0UKdl/HjEiTYFKoEGz3yHNlrDliJNY3M2mFcFV+ImmH3fUQZieL5PhmmBeOBay8FZpjBlsetsnmWeB58q0lvjMPgIhw/3MPev4Mm0jFHWsO82fUQ24bSBTTVPN75/9mse7qzscV0QhbLVGEyQ0NAANtQ163oPkrM0A19H8Kl6DswU2WWIIG9NjES0VNRnKIgRtmlX6i9EsraEHTnsdh7cwmGzugwe+8FFW2NkvurtU/n2I0RQ2WCYNQHJLqZarTUZjatfsGPzRzuN8ID8tWNkuh2ZXg2/C7FZFFz/pjJjXGT+DxT/bR6qW5OX8lRM3B8I3v/gXIpDuKOrYgOCEROVhBsBw/Q4IIUKPXyYdUOLp6OcRuBLWLvfR73qGLzPmy2w68PZpPxvBBNrkMFixb1yho0/f+VdjD+V2L530OH1TWYSORNUo44Ye4edvANb8SzGnpc4+fwQ9DIovcdf1W0h"
   }
 }
