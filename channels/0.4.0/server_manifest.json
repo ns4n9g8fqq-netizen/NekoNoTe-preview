@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "plugin_version": "0.4.0",
+  "version": "2026-09-21.cdcb9c3",
+  "base_url": "https://github.com/ns4n9g8fqq-netizen/NekoNoTe-preview/releases/download/plugin-v0.4.0",
+  "asset": "server-code.zip",
+  "bytes": 469723,
+  "sha256": "1938e311af886fbd56f21819cde0cb99577890498b0a40337d9c79eecfb59486",
+  "signature": {
+    "algorithm": "RSA-SHA256",
+    "key_id": "nn-release-7324d46eebc0",
+    "value": "lpqyBS+e0egrG+8h+YqDESiiqwkc6dOVlNKZAlQJMibLgff8NBA4n4PdVBYsOAKZJUI3sTuUIa+dRwb+gw9kblP6pmIRgtTx+6/KH3YahUlOSonLnPJOGaARQ8jeOEi71hiweFyJGAzGVIU82HRY5MdyMZe7u376tgc6Q+5ADb/myqwMezYl2kkanw7utHDaCahvzRzGjLb2/0FgDiFDJ21ov6UGaVbp9r3uI1vY0j5Vwe7PWchWDffsMY03TqFf0McU9o0F/Zp9ALqQFwBC49rh40e8LJbUOsDHixwuxG/8JbjahhUaFeEZvhdVwiQpPb6MFsc37m5p7vrH94OsTr7nrSsBX1T01n4poJbI1QUU0Ub8XqpDF76hZFsZWDAET4E4f15vHrFrtZa6YijMU/L7XS/7IliwNZJEgsaVNdZuGCyxISV1oog2w3SYD5xd0gU+MTk+wAzrQkv1OmGujZumRGa1wj8NOtDg0/7oLsFgHBrFGijd/nzvLbTfauT+"
+  }
+}
